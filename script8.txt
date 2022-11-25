@@ -1,0 +1,7 @@
+======================================================
+Filename: script8.txt
+Running Test: Test String
+Recursive: true
+class java.lang.String
+class java.lang.Object
+======================================================

@@ -1,0 +1,144 @@
+======================================================
+Filename: script5.txt
+Running Test: ClassD
+Recursive: true
+CLASS
+Class: class ClassD
+SUPERCLASS -> Recursively Inspect
+SuperClass: class java.lang.Object
+	CLASS
+	Class: class java.lang.Object
+	SuperClass: NONE
+	INTERFACES ( class java.lang.Object )
+	Interfaces -> NONE
+	CONSTRUCTORS ( class java.lang.Object )
+	Constructors ->
+	CONSTRUCTOR
+	  Name: java.lang.Object
+	  Exceptions -> NONE
+	  Parameter Types -> NONE
+	  Modifiers: public
+	METHODS ( class java.lang.Object )
+	Methods ->
+	METHOD
+	  Name: finalize
+	  Exceptions ->
+	class java.lang.Throwable
+	  Parameter Types -> NONE
+	  Return Type: void
+	  Modifiers: protected
+	METHOD
+	  Name: wait0
+	  Exceptions ->
+	class java.lang.InterruptedException
+	  Parameter Types ->
+	long
+	  Return Type: void
+	  Modifiers: private final native
+	METHOD
+	  Name: equals
+	  Exceptions -> NONE
+	  Parameter Types ->
+	class java.lang.Object
+	  Return Type: boolean
+	  Modifiers: public
+	METHOD
+	  Name: toString
+	  Exceptions -> NONE
+	  Parameter Types -> NONE
+	  Return Type: class java.lang.String
+	  Modifiers: public
+	METHOD
+	  Name: hashCode
+	  Exceptions -> NONE
+	  Parameter Types -> NONE
+	  Return Type: int
+	  Modifiers: public native
+	METHOD
+	  Name: getClass
+	  Exceptions -> NONE
+	  Parameter Types -> NONE
+	  Return Type: class java.lang.Class
+	  Modifiers: public final native
+	METHOD
+	  Name: clone
+	  Exceptions ->
+	class java.lang.CloneNotSupportedException
+	  Parameter Types -> NONE
+	  Return Type: class java.lang.Object
+	  Modifiers: protected native
+	METHOD
+	  Name: notify
+	  Exceptions -> NONE
+	  Parameter Types -> NONE
+	  Return Type: void
+	  Modifiers: public final native
+	METHOD
+	  Name: notifyAll
+	  Exceptions -> NONE
+	  Parameter Types -> NONE
+	  Return Type: void
+	  Modifiers: public final native
+	METHOD
+	  Name: wait
+	  Exceptions ->
+	class java.lang.InterruptedException
+	  Parameter Types ->
+	long
+	  Return Type: void
+	  Modifiers: public final
+	METHOD
+	  Name: wait
+	  Exceptions ->
+	class java.lang.InterruptedException
+	  Parameter Types ->
+	long
+	int
+	  Return Type: void
+	  Modifiers: public final
+	METHOD
+	  Name: wait
+	  Exceptions ->
+	class java.lang.InterruptedException
+	  Parameter Types -> NONE
+	  Return Type: void
+	  Modifiers: public final
+	FIELDS ( class java.lang.Object )
+	Fields -> NONE
+INTERFACES ( class ClassD )
+Interfaces -> NONE
+CONSTRUCTORS ( class ClassD )
+Constructors ->
+CONSTRUCTOR
+  Name: ClassD
+  Exceptions -> NONE
+  Parameter Types -> NONE
+  Modifiers: public
+CONSTRUCTOR
+  Name: ClassD
+  Exceptions -> NONE
+  Parameter Types ->
+int
+  Modifiers: public
+METHODS ( class ClassD )
+Methods ->
+METHOD
+  Name: toString
+  Exceptions -> NONE
+  Parameter Types -> NONE
+  Return Type: class java.lang.String
+  Modifiers: public
+METHOD
+  Name: getVal3
+  Exceptions -> NONE
+  Parameter Types -> NONE
+  Return Type: int
+  Modifiers: public
+FIELDS ( class ClassD )
+Fields ->
+FIELD
+  Name: val
+  Type: class ClassA
+  Modifiers: private
+Exception
+======================================================
